@@ -1,14 +1,14 @@
-:MetaMask Browser Extension:
-============================
+## MetaMask Browser Extension
+
 
 
 You can find the latest version of MetaMask on [our official website](https://metamask.io/). For help using MetaMask, visit our [User Support Site](https://support.metamask.io/).
 
-.. For: :[general questions]:(https://community.metamask.io/c/learn/26), [feature requests](https://community.metamask.io/c/feature-requests-ideas/13), or [developer questions](https://community.metamask.io/c/developer-questions/11), visit our [Community Forum](https://community.metamask.io/).
+For: [general questions](https://community.metamask.io/c/learn/26), [feature requests](https://community.metamask.io/c/feature-requests-ideas/13), or [developer questions](https://community.metamask.io/c/developer-questions/11), visit our [Community Forum](https://community.metamask.io/).
 
-:MetaMask supports: Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version
+MetaMask supports Firefox, Google Chrome, and Chromium-based browsers. We recommend using the latest available browser version
 
-.. For: up to the minute news, follow us on [X](https://x.com/MetaMask).
+For up to the minute news, follow us on [X](https://x.com/MetaMask).
 
 To learn how to develop MetaMask-compatible applications, visit our [Developer Docs](https://docs.metamask.io/).
 
@@ -17,12 +17,13 @@ To learn how to contribute to the MetaMask codebase, visit our [Contributor Docs
 To learn how to contribute to the MetaMask Extension project itself, visit our [Extension Docs](https://github.com/MetaMask/metamask-extension/tree/main/docs).
 
 
-                                                                                            
-                                                                                              :GitHub Codespaces quickstart:
+
+                                                        
+                                                                                              ## GitHub Codespaces quickstart
 
 As an alternative to building on your local machine, there is a new option to get a development environment up and running in less than 5 minutes by using GitHub Codespaces. Please note that there is a [Limited Free Monthly Quota](https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces), and after that GitHub will start charging you.
 
-_:Note: You are billed for both time spent running, and for storage used_
+_Note: You are billed for both time spent running, and for storage used_
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/MetaMask/metamask-extension?quickstart=1)
 
@@ -37,7 +38,7 @@ _:Note: You are billed for both time spent running, and for storage used_
 6. Change some code, then run `yarn start` to build in dev mode
 7. After a minute or two, it will finish building, and you can see your changes in the noVNC desktop
 
-:Tips to keep your Codespaces usage lower:
+## Tips to keep your Codespaces usage lower
 
 - You are billed for both time spent running, and for storage used
 - Codespaces pause after 30 minutes of inactivity, and auto-delete after 30 days of inactivity
@@ -45,7 +46,7 @@ _:Note: You are billed for both time spent running, and for storage used_
   - You may want to manually pause them before the 30 minute timeout
   - If you have several idle Codespaces hanging around for several days, you can quickly run out of storage quota. You should delete the ones you do not plan to use anymore, and probably keep only 1 or 2 in the long-term. It's also possible to re-use old Codespaces and switch the branch, instead of creating new ones and deleting the old ones.
 
-### :Codespaces on a fork:
+### Codespaces on a fork
 
 If you are not a MetaMask Internal Developer, or are otherwise developing on a fork, the default Infura key will be on the Free Plan and have very limited requests per second. If you want to use your own Infura key, follow the `.metamaskrc` and `INFURA_PROJECT_ID` instructions in the section [Building on your local machine](#building-on-your-local-machine).
 
@@ -79,8 +80,8 @@ If you are not a MetaMask Internal Developer, or are otherwise developing on a f
   - See the [build system readme](./development/build/README.md) for build system usage information.
 
 - Follow these instructions to verify that your local build runs correctly:
-  - [How to add custom build to Chrome](./docs/add-to-chrome.md)
-  - [How to add custom build to Firefox](./docs/add-to-firefox.md)
+  - [How to add custom build to Chrome](./docs/add-to-chrome.md#)
+  - [How to add custom build to Firefox](./docs/add-to-firefox.md#add-to-firefox.html)
 
 ## Git Hooks
 
